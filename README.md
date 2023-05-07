@@ -1,206 +1,53 @@
-# Promotion.com
 <!DOCTYPE html>
-
 <html>
-
-<head>
-
-	<title>Lupon National Comprehensive High School</title>
-
-	<style>
-
-		body {
-
-			font-family: 'Montserrat', sans-serif;
-
-			background-color: #f2f2f2;
-
-			color: #555;
-
-			margin: 0;
-
-			padding: 0;
-
-		}
-
-		header {
-
-			background-color: #fff;
-
-			box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-
-			padding: 20px;
-
-			display: flex;
-
-			justify-content: space-between;
-
-			align-items: center;
-
-			position: sticky;
-
-			top: 0;
-
-			z-index: 999;
-
-		}
-
-		header img {
-
-			height: 60px;
-
-		}
-
-		header nav ul {
-
-			display: flex;
-
-			list-style: none;
-
-			margin: 0;
-
-			padding: 0;
-
-		}
-
-		header nav li {
-
-			margin: 0 10px;
-
-		}
-
-		header nav a {
-
-			text-decoration: none;
-
-			color: #555;
-
-			font-weight: bold;
-
-			font-size: 18px;
-
-			transition: all 0.2s ease-in-out;
-
-		}
-
-		header nav a:hover {
-
-			color: #0077cc;
-
-		}
-
-		.hero {
-
-			background-image: url('https://images.unsplash.com/photo-1579298319129-c8f7cb1641ec');
-
-			background-position: center;
-
-			background-size: cover;
-
-			height: 400px;
-
-			display: flex;
-
-			flex-direction: column;
-
-			justify-content: center;
-
-			align-items: center;
-
-			text-align: center;
-
-			color: #fff;
-
-			padding: 0 20px;
-
-			position: relative;
-
-		}
-
-		.hero h1 {
-
-			font-size: 50px;
-
-			margin: 0;
-
-			font-weight: bold;
-
-			text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-
-		}
-
-		.hero p {
-
-			font-size: 24px;
-
-			margin-top: 20px;
-
-			text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-
-		}
-
-		.container {
-
-			max-width: 1200px;
-
-			margin: 0 auto;
-
-			padding: 50px 20px;
-
-		}
-
-		.featured-image {
-
-			display: block;
-
-			margin: 0 auto;
-
-			max-width: 100%;
-
-			height: auto;
-
-			box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-
-		}
-
-		h2 {
-
-			font-size: 36px;
-
-			font-weight: bold;
-
-			margin-top: 50px;
-
-			margin-bottom: 20px;
-
-			text-align: center;
-
-			color: #0077cc;
-
-			text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-
-		}
-
-		p {
-
-			font-size: 18px;
-
-			line-height: 1.5;
-
-			margin-top: 20px;
-
-			text-align: justify;
-
-			text-justify: inter-word;
-
-		}
-
-		button {
-
-			background-color: #0077cc;
-
-			color: #fff;
-
-			border: none;
-
-			padding: 10px 20px
+  <head>
+    <title>Comprehensive High School</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Comprehensive High School</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#enrollment">Enrollment</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Comprehensive High School</h2>
+        <p>Comprehensive High School is a public high school located in Anytown, USA. We offer a comprehensive education that prepares students for success in college, career, and life.</p>
+        <p>Our mission is to provide a safe, inclusive, and challenging learning environment that promotes intellectual, social, and emotional growth for all students.</p>
+      </section>
+      <section id="programs">
+        <h2>Our Programs</h2>
+        <ul>
+          <li>Advanced Placement (AP) courses in multiple subjects</li>
+          <li>Honors courses in multiple subjects</li>
+          <li>International Baccalaureate (IB) program</li>
+          <li>Career and technical education (CTE) programs</li>
+          <li>Performing and visual arts programs</li>
+          <li>Athletics programs</li>
+        </ul>
+      </section>
+      <section id="enrollment">
+        <h2>Enrollment Information</h2>
+        <p>Enrollment at Comprehensive High School is open to all students who live within our district boundaries. To enroll, please visit our enrollment page or contact our enrollment office for more information.</p>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like more information about Comprehensive High School, please contact us using the information below:</p>
+        <ul>
+          <li>Phone: (555) 555-5555</li>
+          <li>Email: info@comprehensivehighschool.com</li>
+          <li>Address: 123 Main Street, Anytown, USA 12345</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Comprehensive High School. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
