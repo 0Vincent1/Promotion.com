@@ -5,7 +5,7 @@
   </head>
   <body>
     <header>
-      <h1>Welcome to Comprehensive High School</h1>
+      <h1>Welcome to Lupon Comprehensive High School</h1>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
@@ -18,7 +18,7 @@
     <main>
       <section id="about">
         <h2>About Comprehensive High School</h2>
-        <p>Comprehensive High School is a public high school located in Anytown, USA. We offer a comprehensive education that prepares students for success in college, career, and life.</p>
+        <p>Comprehensive High School is a public high school located in Lupon, Davao Oriental. We offer a comprehensive education that prepares students for success in college, career, and life.</p>
         <p>Our mission is to provide a safe, inclusive, and challenging learning environment that promotes intellectual, social, and emotional growth for all students.</p>
       </section>
       <section id="programs">
